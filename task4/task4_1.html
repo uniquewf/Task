@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>cssTask4-1</title>
+		<style type="text/css">
+			html,body{
+				background: #eef0f4;
+				margin: 0;
+			}
+			.box .title{
+				height: 50px;
+				color: white;
+				display: flex;
+				justify-content: space-between;
+				background-color: #5ac0ce;
+			}
+			.title p{
+				vertical-align: middle;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			#input_form{
+				margin-top: 10px;
+			}
+			.phone,.passowd{
+				background: white;
+				height: 55px;
+				display: flex;
+			}
+			.phone img,.passowd img{
+				height: 30px;
+				margin-top: 10px;
+				margin-left: 20px;
+			}
+			
+			.phone input,.passowd input{
+				height: 30px;
+				width: 100%;
+				margin-top: 10px;
+				margin-left: 20px;
+				border: none;
+				outline: none;
+			}
+			.passowd{
+				margin-top: 10px;
+			}
+			.loginBtn{
+				margin-top: 10px;
+				background: #5ac0ce;
+				text-align: center;
+				color: white;
+				height: 40px;
+				padding-top: 10px;
+			}
+			.forgetPwd{
+				float: right;
+				margin-top: 10px;
+				margin-right: 10px;
+				color: #5ac0ce;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="title">
+				<p>注册</p>
+				<p>登录</p>
+				<p>关闭</p>
+			</div>
+			<form id="input_form">
+				<div class="phone">
+				<img src="img/ic3.png" />
+				<img src="img/ic1.png" />
+				<input type="tel" maxlength="11" name="phone" id="phone" value="" placeholder="请输入手机号" />
+				</div>
+				<div class="passowd">
+				<img src="img/ic2.png" />
+				<img src="img/ic1.png" />
+				<input type="password" name="passowd" id="passowd" value="" placeholder="请输入密码" />
+				</div>
+				<div class="loginBtn">
+					登&nbsp;&nbsp;&nbsp;&nbsp;录
+				</div>
+				<a class="forgetPwd">忘记密码</a>
+			</form>
+		</div>
+	</body>
+</html>
