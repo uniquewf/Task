@@ -1,0 +1,52 @@
+body {
+				background-color: #68cdd6;
+			}
+			.box{
+				max-width: 768px;
+				margin: 0 auto;
+			}
+			
+			.head {
+				margin: 1rem 0 0 1rem;    
+			}
+			
+			.logo {
+				margin-top: 7rem;
+				text-align: center;
+			}
+			
+			.info p {
+				color: white;
+				margin: 7rem 2rem 0 2rem;
+				text-align: left;
+				
+			}
+			
+			.icon {
+				width: 80%;
+				margin-top: 7rem;
+				margin-left: 10%;
+			}
+			
+			.icon_left {
+				float: left;
+			}
+			
+			.icon_right {
+				float: right;
+			}
+			
+			.icon_left p,
+			.icon_right p {
+				text-align: center;
+				color: white
+			}
+			
+			.icon:after {
+				content: "";
+				display: block;
+				visibility: hidden;
+				clear: both;
+				height: 0;
+				zoom: 1;
+			}
