@@ -1,74 +1,88 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>cssTask3</title>
 		<style type="text/css">
-			body{
-				background-color:#68cdd6;
+			body {
+				background-color: #68cdd6;
 			}
-			.head{
-				margin: 1rem 0 0 1rem;
+			.box{
+				max-width: 768px;
+				margin: 0 auto;
 			}
-			.logo{
+			
+			.head {
+				margin: 1rem 0 0 1rem;    
+			}
+			
+			.logo {
 				margin-top: 7rem;
 				text-align: center;
 			}
 			
-			.info{
+			.info p {
 				color: white;
-				line-height: 2rem;
 				margin: 7rem 2rem 0 2rem;
-				font-size: 0.95rem;
-				text-align:left
+				text-align: left;
+				
 			}
 			
-			.icon{
-				position: absolute;
+			.icon {
 				width: 80%;
-				text-align: center;
 				margin-top: 7rem;
 				margin-left: 10%;
-				margin-right: 10%;
 			}
 			
-			.icon_left{
+			.icon_left {
 				float: left;
 			}
-			.icon_right{
+			
+			.icon_right {
 				float: right;
 			}
-			.icon_left p,.icon_right p{
+			
+			.icon_left p,
+			.icon_right p {
 				text-align: center;
 				color: white
 			}
 			
+			.icon:after {
+				content: "";
+				display: block;
+				visibility: hidden;
+				clear: both;
+				height: 0;
+				zoom: 1;
+			}
 		</style>
 	</head>
+
 	<body>
 		<div class="box">
 			<div class="head">
-				<img src="task3/img/ioc1.png" />
+				<img src="img/ioc1.png" />
 			</div>
 			<div class="logo">
-				<img src="task3/img/ioc2.png" />
+				<img src="img/ioc2.png" />
 			</div>
 			<div class="info">
-				<p><strong>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具。
-				</strong></p>
+				<p>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具。</p>
 			</div>
 			<div class="icon">
 				<div class="icon_left">
-					<img src="task3/img/ioc3.png" />
+					<img src="img/ioc3.png" />
 					<p>8888</p>
 				</div>
 				<div class="icon_right">
-				<img src="task3/img/ioc4.png" />
+					<img src="img/ioc4.png" />
 					<p>PTEDJ</p>
 				</div>
 			</div>
 		</div>
-		
 	</body>
+
 </html>
