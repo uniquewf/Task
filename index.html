@@ -1,91 +1,91 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>cssTask3</title>
+		<title>cssTask4-1</title>
 		<style type="text/css">
-			body {
-				margin:0;
+			html,body{
+				background: #eef0f4;
+				margin: 0;
 			}
-			.box{
-				background-color: #68cdd6;
-				max-width: 768px;
-				height: 100%;
-				margin: 0 auto;
-			}
-			
-			.head {
-				padding: 1rem 0 0 1rem;    
-			}
-			
-			.logo {
-				margin-top: 7rem;
-				text-align: center;
-			}
-			
-			.info p {
+			.box .title{
+				height: 50px;
 				color: white;
-				margin: 7rem 2rem 0 2rem;
-				text-align: left;
-				
+				display: flex;
+				justify-content: space-between;
+				background-color: #5ac0ce;
+			}
+			.title p{
+				vertical-align: middle;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			#input_form{
+				margin-top: 10px;
+			}
+			.phone,.passowd{
+				background: white;
+				height: 55px;
+				display: flex;
+			}
+			.phone img,.passowd img{
+				height: 30px;
+				margin-top: 10px;
+				margin-left: 20px;
 			}
 			
-			.icon {
-				width: 80%;
-				margin-top: 7rem;
-				margin-left: 10%;
-				margin-bottom: 20%;
+			.phone input,.passowd input{
+				height: 30px;
+				width: 100%;
+				margin-top: 10px;
+				margin-left: 20px;
+				border: none;
+				outline: none;
 			}
-			
-			.icon_left {
-				float: left;
+			.passowd{
+				margin-top: 10px;
 			}
-			
-			.icon_right {
-				float: right;
-			}
-			
-			.icon_left p,
-			.icon_right p {
+			.loginBtn{
+				margin-top: 10px;
+				background: #5ac0ce;
 				text-align: center;
-				color: white
+				color: white;
+				height: 40px;
+				padding-top: 10px;
 			}
-			
-			.icon:after {
-				content: "";
-				display: block;
-				visibility: hidden;
-				clear: both;
-				height: 0;
-				zoom: 1;
+			.forgetPwd{
+				float: right;
+				margin-top: 10px;
+				margin-right: 10px;
+				color: #5ac0ce;
+				text-decoration: underline;
 			}
 		</style>
 	</head>
-
 	<body>
 		<div class="box">
-			<div class="head">
-				<img src="task3/img/ioc1.png" />
+			<div class="title">
+				<p>注册</p>
+				<p>登录</p>
+				<p>关闭</p>
 			</div>
-			<div class="logo">
-				<img src="task3/img/ioc2.png" />
-			</div>
-			<div class="info">
-				<p>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具。</p>
-			</div>
-			<div class="icon">
-				<div class="icon_left">
-					<img src="task3/img/ioc3.png" />
-					<p>8888</p>
+			<form id="input_form">
+				<div class="phone">
+				<img src="task4/img/ic3.png" />
+				<img src="task4/img/ic1.png" />
+				<input type="tel" maxlength="11" name="phone" id="phone" value="" placeholder="请输入手机号" />
 				</div>
-				<div class="icon_right">
-					<img src="task3/img/ioc4.png" />
-					<p>PTEDJ</p>
+				<div class="passowd">
+				<img src="task4/img/ic2.png" />
+				<img src="task4/img/ic1.png" />
+				<input type="password" name="passowd" id="passowd" value="" placeholder="请输入密码" />
 				</div>
-			</div>
+				<div class="loginBtn">
+					登&nbsp;&nbsp;&nbsp;&nbsp;录
+				</div>
+				<a class="forgetPwd">忘记密码</a>
+			</form>
 		</div>
 	</body>
-
 </html>
