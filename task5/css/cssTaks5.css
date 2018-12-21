@@ -1,0 +1,47 @@
+body{margin: 0 auto;}
+#top{height: 50px;background: #5fc0cd; margin: 0 auto;}
+#top a{line-height: 50px;margin-left: 15px; width: 20%;}
+#top h3{width: 80%;text-align: center;color: #ffffff;display: inline-block;line-height: 50px;margin: 0;}
+
+#head{height: 190px; background: url(../img/head_bg.gif) no-repeat ;background-size: 100% 100%;position: relative;}
+#head a{display: inline-block;position: absolute;margin-left: 10px;margin-top: 45px;}
+
+#head .head_info{position: absolute;margin-left: 130px;margin-top: 40px;}
+#head .head_info .name{color: #FFFFFF;font-size:20px;font-weight: 800px;letter-spacing: 5px;}
+#head .head_info p{color: #ffffff;font-weight: 800px;letter-spacing: 5px;}
+.head_info .year{display: inline-block;margin-left: 10px;}
+
+#content{}
+#content .content_title{height: 50px;border-bottom: 1px solid #e1e5e7;position: relative;}
+#content .content_title img{line-height: 50px;margin-left: 15px;padding-top: 12px;}
+#content .content_title span{color: #333333;padding-left: 10px;margin-top: 12px; position: absolute;}
+
+.info ul{ padding-left: 10px; position: relative;border-bottom: 1px solid #e1e5e7;margin: 0 10px 0; padding: 0;}
+.info .one li{list-style: none; float: left;margin-left: 20px;min-height: 50px;}
+.info .one img{position: absolute;top: 14px;}
+.info span{margin-left: 30px;display: inline-block;line-height: 50px;}
+
+.info .cn{margin-left: 50px;}
+
+
+.info .tl{color: #999999;margin-left: 20px;}
+.info ul:nth-child(4){color: #e26163;}
+.info ul:nth-child(4) img{margin-left: 20px;margin-top: 12px;position: absolute;}
+.info ul:nth-child(4) #hour{margin-left: 20px;}
+
+.info ul:nth-child(5) li{display: flex;align-items: center;}
+.info ul:nth-child(5) span{min-width: 64px;}
+.info ul:nth-child(5) img{margin-left: 20px;}
+.info ul:nth-child(5) #zwjs{text-align: left;align-items: center;line-height: 20px;padding: 20px 0;}
+ 
+ 
+#footer{display: flex;justify-content: space-around;margin-top: 50px;margin: 50px 2%;}
+#footer #f_left{ width: 48%; text-align: center; line-height: 50px;border-radius: 5px;border: 1px solid #5fc0cd;background: #ffffff;color: #5fc0cd;}
+#footer #f_right { width: 48%; text-align: center; line-height: 50px;border-radius: 5px; color: #ffffff;background:  #5fc0cd;;}
+ 
+.clear:after{
+	zoom: 1;
+	content: "";
+	display: block;
+	clear: both;
+}
