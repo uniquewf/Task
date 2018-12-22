@@ -1,96 +1,60 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>cssTask4-1</title>
-		<style type="text/css">
-			html,body{
-				background: #eef0f4;
-				margin: 0;
-			}
-			.box .title{
-				height: 50px;
-				color: white;
-				display: flex;
-				justify-content: space-between;
-				background-color: #5ac0ce;
-			}
-			.title p{
-				vertical-align: middle;
-				padding-left: 10px;
-				padding-right: 10px;
-			}
-			#input_form{
-				margin-top: 10px;
-			}
-			.phone,.passowd{
-				background: white;
-				height: 55px;
-				display: flex;
-			}
-			.phone img,.passowd img{
-				height: 30px;
-				margin-top: 10px;
-				margin-left: 20px;
-			}
-			
-			.phone input,.passowd input{
-				height: 30px;
-				width: 100%;
-				margin-top: 10px;
-				margin-left: 20px;
-				border: none;
-				outline: none;
-			}
-			.passowd{
-				margin-top: 10px;
-			}
-			.loginBtn{
-				margin-top: 10px;
-				background: #5ac0ce;
-				text-align: center;
-				color: white;
-				height: 40px;
-				padding-top: 10px;
-			}
-			.forgetPwd{
-				float: right;
-				margin-top: 10px;
-				margin-right: 10px;
-				color: #5ac0ce;
-				text-decoration: underline;
-			}
 
-			/*去掉填充颜色*/
-			 input:-webkit-autofill{
-        -webkit-box-shadow: 0 0 0 1000px white inset;
- }
-		</style>
-	</head>
-	<body>
-		<div class="box">
-			<div class="title">
-				<p>注册</p>
-				<p>登录</p>
-				<p>关闭</p>
-			</div>
-			<form id="input_form" autocomplete="off">
-				<div class="phone">
-				<img src="task4/img/ic3.png" />
-				<img src="task4/img/ic1.png" />
-				<input type="tel" maxlength="11" autocomplete="off" name="phone" id="phone" value="" placeholder="请输入手机号" />
-				</div>
-				<div class="passowd">
-				<img src="task4/img/ic2.png" />
-				<img src="task4/img/ic1.png" />
-				<input type="password" name="passowd" id="passowd" value="" placeholder="请输入密码" />
-				</div>
-				<div class="loginBtn">
-					登&nbsp;&nbsp;&nbsp;&nbsp;录
-				</div>
-				<a class="forgetPwd">忘记密码</a>
-			</form>
-		</div>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>CSSTask5</title>
+        <link rel="stylesheet" href="task5/css/cssTaks5.css" />
+    </head>
+
+    <body>
+        <div id="top">
+            <a href="#"><img src="task5/img/top_back.gif" alt="返回" title="返回" /></a>
+            <h3>个人主页</h3>
+        </div>
+        <div id="head">
+            <a href="#"><img src="task5/img/logo.gif" alt="背景" title="背景" /></a>
+            <div class="head_info">
+                <p class="name">高素雅<span class="year">51岁</span></p>
+                <p><img src="task5/img/head_address.gif" /><span>北京.通州.果园</span></p>
+            </div>
+        </div>
+        <div id="content">
+            <div class="content_title">
+                <img src="task5/img/content_left.gif" />
+                <span>专业技能</span>
+            </div>
+            <div class="info">
+                <ul class="clear one">
+                    <li><img src="task5/img/content_star.gif" /><span>住家</span></li>
+                    <li><img src="task5/img/content_star.gif" /><span>不含餐</span></li>
+                </ul>
+                <ul class="clear">
+                    <li><span class="tl">从业年限</span><span class="cn">0~3年</span></li>
+                </ul>
+                <ul class="clear">
+                    <li><span class="tl">工作时间</span><span class="cn">全天</span></li>
+                </ul>
+                <ul class="clear">
+                    <li><span class="tl">服务价格</span><img src="task5/img/content_tg.gif" /><span class="cn">25元/小时</span></li>
+                </ul>
+                <ul class="clear">
+                    <li>
+                          <span class="tl">自我介绍</span><img src="task5/img/content_tg.gif" /><span  id="zwjs">可以洗衣、做饭、照顾老人。在护工方面有5年的经验，经验丰富。</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="footer">
+            <div id="f_left">
+                留言
+            </div>
+            <div id="f_right">
+               电话联系
+            </div>
+        </div>
+    </body>
+
 </html>

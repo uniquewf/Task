@@ -10,15 +10,13 @@ body {
 
 #top a {
 	margin-left: 15px;
-	float: left;
-	line-height: 50px;
 }
-#top img{
-	margin-top: 15px;
-}
+
 #top h3 {
+	width: 80%;
 	text-align: center;
 	color: #ffffff;
+	display: inline-block;
 	line-height: 50px;
 	margin: 0;
 }
