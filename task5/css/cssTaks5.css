@@ -11,11 +11,10 @@ body {
 #top a {
 	margin-left: 15px;
 	float: left;
+	display: inline-block;
 	line-height: 50px;
 }
-#top img{
-	margin-top: 15px;
-}
+
 #top h3 {
 	text-align: center;
 	color: #ffffff;
@@ -33,7 +32,7 @@ body {
 #head a {
 	display: inline-block;
 	position: absolute;
-	margin-left: -10px;
+	margin-left: 10px;
 	margin-top: 45px;
 }
 
@@ -151,6 +150,7 @@ body {
 }
 
 #footer #f_left {
+	display: block;
 	width: 48%;
 	text-align: center;
 	line-height: 50px;
@@ -158,15 +158,18 @@ body {
 	border: 1px solid #5fc0cd;
 	background: #ffffff;
 	color: #5fc0cd;
+	text-decoration:none;
 }
 
 #footer #f_right {
+	display: block;
 	width: 48%;
 	text-align: center;
 	line-height: 50px;
 	border-radius: 5px;
 	color: #ffffff;
 	background: #5fc0cd;
+	text-decoration:none;
 	;
 }
 
