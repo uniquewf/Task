@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <title>CSSTask5</title>
-        <link rel="stylesheet" href="task5/cssTaks5.css" />
+        <link rel="stylesheet" href="task5/css/cssTaks5.css" />
     </head>
 
     <body>
