@@ -19,7 +19,8 @@
             .drop-down-content li{display: inline-block;line-height: 25px;padding: 0 10px;width: 50px;text-align: center;}
             .drop-down-content li:hover {background: #BD2C00;}
             .drop-down-content li a{color: #000000;}
-            .nav li .more{display: inline-block; background-image: url(../img/sprite_icon.gif);background-repeat:no-repeat;width: 15px;height: 10px;background-position: -38px -51px;margin-left: 20px;margin-right: 5px;}
+       /*     .nav li .more{display: inline-block; background-image: url(../img/sprite_icon.gif);background-repeat:no-repeat;width: 15px;height: 10px;background-position: -38px -51px;margin-left: 20px;margin-right: 5px;}*/
+            .nav li .more{margin-left: 20px;margin-right: 5px;border-width: 5px;border-style: solid; border-color:#dadcdd transparent transparent transparent;}
             .nav li .fgx{display: inline-block; background-image: url(../img/sprite_icon.gif);background-repeat:no-repeat;width: 1px;height: 80px;background-position:0;}
        
             
@@ -33,7 +34,7 @@
 		.content .list_title span:nth-child(2){line-height: 30px;}
 		
 		.content .list_content{display: flex;justify-content: space-between;align-items: center;margin-left: 10px;}
-		.content .list_content span:nth-child(1){display:inline-block;}
+		.content .list_content span:nth-child(1){display:inline-block;text-overflow: ellipsis;white-space: nowrap;}
         .content .list_content div{line-height: 50px;color: #e63b0e;}
         .content .list_content .more{display: inline-block;background-image: url(../img/sprite_icon.gif);background-repeat: no-repeat;width: 20px;height: 32px;background-position: -60px -45px;margin: 0 10px;}
 		
