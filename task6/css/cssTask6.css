@@ -1,4 +1,4 @@
- body{margin: 0 auto;}
+ body{margin: 0 auto;max-width: 768px;}
        
         .top{height: 68px;background: #5fc0cd;text-align: center;}
             .top a{float: right;margin-top: 12px;padding-right: 10px; }
@@ -40,7 +40,7 @@
 		.content .list_address span:nth-child(1){display: inline-block;background-image: url(../img/sprite_icon.gif);background-repeat: no-repeat;width: 26px;height: 26px;background-position: -13px -50px;margin: 0 10px;}
         .content .list_address span:nth-child(2){line-height: 30px;}
 		
-		.footer{width: 100%;height: 100px;position:fixed;z-index: 1;bottom: 0;background: #f8fafb;display: flex;justify-content: space-around;align-items: center;}
+		.footer{width: 100%;max-width: 768px;height: 100px;position:fixed;z-index: 1;bottom: 0;background: #f8fafb;display: flex;justify-content: space-around;align-items: center;}
 		.footer a{display: block;text-decoration:none;}
 		.footer .home span{display: inline-block;background-image: url(../img/bottom_icom.gif);background-repeat:no-repeat;width: 45px;height: 40px;background-position: -27px -3px;margin-top: 15px;}
 		.footer .home p{margin: 0;text-align: center;padding-bottom: 10px;color: #5fc0cd;}
