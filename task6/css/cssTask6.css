@@ -97,7 +97,7 @@
  .nav > li{float: left;list-style: none;width: 33.3%;}
  .nav > li a{color: #dadcde;}
  .nav .nav_title{position: relative;}
- .nav .nav-content{position: absolute;}
+ .nav .nav-content{position: absolute;width:90px;left:30%}
  .head .nav_title:hover .nav-content{display: block;bac}
  .nav-content{display: none;background-color: #DFDFDF;width: 100%;}
  .nav-content li{list-style: none;line-height: 25px;}
